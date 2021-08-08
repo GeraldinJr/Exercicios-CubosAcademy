@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 100vw;
+
+    padding-top: 100px;
+}
+
+nav {
+    background: #313131;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 20px;
+    gap: 40px;
+    z-index: 1;
+}
+
+nav p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    cursor: pointer;
+}
+
+img {
+    cursor: pointer;
+}
+
+.foto {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+span {
+    color: #5C5C5C;
+}
+
+.configuracoes {
+    margin-top: auto;
+}
+
+
+.escondido {
+    display: none;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-left: 50px;
+}
+
+.galeria img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: opacity .8s, transform .4s ease-in-out;
+}
+
+.galeria img:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: .8;
+}
+
+.img-legenda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal {
+    background: rgba(0, 0, 0, 0.6);
+
+    position: fixed;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: 100%;
+
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+
+    -webkit-transition: opacity 0.5s, visibility 0.5s;
+    transition: opacity 0.8s, visibility 0.8s;
+}
+
+.btnFecharModal {
+    align-self: flex-end;
+    margin: 70px 50px;
+}
+
+.btnFecharModal img {
+    width: 30px;
+}
+
+.img-nav {
+    align-self: center;
+    display: flex;
+    gap: 100px;
+}
+
+.imgModal {
+    width: 500px;
+    position: relative !important;
+}
+
+.oculta {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s, visibility 0.5s;
+    transition: opacity 0.8s, visibility 0.8s;
+}
+
+.active {
+    color: #FFFFFF;
+}
+
+picture.liked::before {
+    content: url('./assets/like.svg');
+    position: absolute !important;
+    top: 18px;
+    right: 18px;
+    z-index: 1;
+}
+
+.foto, .img-nav picture {
+    position:relative;
+}
+
+picture.liking::before {
+    content: url('./assets/like.svg');
+    position: absolute !important;
+    right: calc(75%);
+    top: calc(75%);
+    animation-name: liking;
+    animation-duration: 1.5s;
+    z-index: 1;
+    /* background: white; */
+}
+
+@keyframes liking {
+    0%   {
+        -webkit-transform: scale(1.05);
+	    transform: scale(1.05);
+    }
+    50%  {
+        -webkit-transform: scale(2.5);
+	    transform: scale(2.5);
+    }
+    75% {
+        -webkit-transform: scale(1.0);
+	    transform: scale(1.0);
+    }
+    100% {
+        right: 18px;
+        top: 18px
+    }
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@300;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.18));
+    background: #E8BBA8;
+    position:sticky;
+    top: 0;
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #461B09;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 56px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 135px;
+}
+
+.container {
+    width: 85%;
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.imagens {
+    margin-bottom: 121px;
+}
+
+.bug1 {
+    position: relative;
+    top: 30px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.bug2 {
+    position: relative;
+    cursor: pointer;
+}
+
+.modal {
+    background: rgba(0, 0, 0, 0.6);
+
+    position: fixed;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: 100%;
+
+    z-index: 3;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #EFDADA;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 74px;
+
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+
+button {
+    all: unset;
+    box-sizing: border-box;
+
+    padding: 13px 37px;
+    background: #13A1F0;
+    border-radius: 8px;
+    color: #FFF;
+    max-width: 110px;
+    align-self: center;
+    margin-top: 62px;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+
+    cursor: pointer;
+}
+
+label {
+    margin-bottom: 12px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+input {
+    all: unset;
+    border: 1px solid #4E4E4E;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+#email {
+    margin-bottom: 20px;
+}
+
+
+.container {
+    width: 470px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0px;
+}
+
+.olho {
+    position: absolute;
+    cursor: pointer;
+}
+
+.fechado {
+
+    bottom: 12px;
+    right: 15px;
+
+}
+
+.aberto {
+
+    bottom: 14px;
+    right: 16px;
+
+}
+
