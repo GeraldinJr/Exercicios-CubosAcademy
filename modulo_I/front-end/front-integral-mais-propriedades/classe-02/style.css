@@ -1,0 +1,78 @@
+body{
+    background-color:#F2F5FE;
+}
+
+.card{
+    max-width: 505px;
+    text-align: left;
+    margin: 20px auto;
+    padding: 65px 88px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px -20px #D4DCF3;
+    border-radius: 10px;
+    color: #101439;
+    box-sizing: border-box;
+}
+.card p {
+    font-family: 'Merriweather';
+    font-size: 22px;
+    line-height: 36px;
+    font-style: normal;
+    font-weight: normal;
+}
+.card span {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #101439;
+}
+
+.card2 {
+    box-sizing: border-box;
+    background-color: #101439;
+    color: #FFFFFF;
+    max-width: 431px;
+    margin: 20px auto;
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.card2 a {
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    padding: 25px 100px;
+    color: #101439;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.card2 span {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.card2 h1 {
+    font-family: 'Merriweather';
+    font-size: 22px;
+    line-height: 32px;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 13px;
+}
+.card2 p {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 55px;
+}

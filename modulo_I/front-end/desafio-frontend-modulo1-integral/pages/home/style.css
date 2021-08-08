@@ -1,0 +1,60 @@
+
+h1 {
+    padding: 27.5px;
+}
+
+h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+main {
+    display: flex;
+    gap: 140px;
+    margin-bottom: 150px;
+}
+
+main div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+main div img {
+    width: 100%;
+    height: 100%;
+}
+
+main .contato {
+    margin-top: 23px;
+    margin-bottom: 46px;
+    align-self: center;
+}
+.image-home{
+    background: url(/assets/home/image-homepage-hero.jpg) no-repeat center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 140px;
+    margin-top: 54px;
+
+}
+
+.white-box {
+    width: 445px;
+    height: 357px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+}
+
+.sobre {
+    border-top: solid 1px #EAEAEB;
+}
+
+#home {
+    color: #5FB4A2;
+}

@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-family: 'Ibarra Real Nova', serif;
+  color: #33323D;
+  font-style: normal;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  padding: 64px 164.5px 0px 164.5px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.446429px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -0.285714px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  justify-items: center;
+}
+
+nav a {
+  margin-left: 43px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #33323D;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  padding: 24px 165px;
+  background-color: #33323D;
+}
+
+footer a {
+  margin-left: 43px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+footer .redes {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.paragrafo1 {
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323D;
+}
+
+.paragrafo2 {
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: #33323D;
+}
+
+.btn-primario {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #203A4C;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.btn-primario div {
+  padding: 18px 16px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-primario svg {
+  stroke: #5FB4A2;
+}
+
+.btn-primario section {
+  margin: auto;
+  color: #FFF;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Ibarra Real Nova', serif;
+}
+
+.btn-primario:hover {
+  background-color: #5FB4A2;
+}
+
+.btn-primario:hover svg {
+  stroke: white;
+}
+
+.btn-primario:active {
+  position: relative;
+  top: 1px;
+}
+
+label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  font-family: 'Public Sans', sans-serif;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.contato {
+  font-weight: 100;
+  border: 1px solid #33323D;
+  color: #33323D;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.contato:hover {
+  background-color: #33323D;
+  color: #FAFAFA;
+}
+
+.enviar {
+  font-weight: normal;
+  color: #FAFAFA;
+  background-color: #203A4C;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.enviar:hover {
+  background-color: #5FB4A2;
+}
+
+.btn-secundario {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  width: 162px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+}
+
+.txt-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+.txt-area input {
+  all: unset;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #EAEAEB;
+}
+
+.txt-area input:focus {
+  border: 2px solid #000000;
+}
+
+.mensagem {
+  width: 500px;
+}
+
+.mensagem input {
+  height: 96px;
+}
+
+.nome {
+  width: 500px;
+}
+
+.nome input {
+  height: 48px;
+}
+
+.pre-footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-bottom: 150px;
+}
+/*# sourceMappingURL=global.css.map */

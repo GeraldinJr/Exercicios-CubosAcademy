@@ -1,0 +1,71 @@
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 0;
+}
+body {
+    background-image: url(assets/background.jpg);
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#perfil {
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;
+    margin-top: -55px;
+    margin-bottom: 24px;
+    background-color: #FFFFFF;
+}
+#nome, .inferior h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+}
+#idade, #local, .inferior p {
+    color: #6B7082;
+}
+#idade {
+    font-size: 18px;
+    line-height: 18px;
+}
+.inferior p{
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 1.5px;
+}
+#local {
+    font-size: 14px;
+    line-height: 14px;
+}
+#nome {
+    margin-bottom: 8px;
+}
+.meio {
+    text-align: center;
+    padding-bottom: 28px;
+    width: 100%;
+}
+.mae {
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inferior {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #e8e9ec;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    /* border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px; */
+}
+
+.meio, .inferior {
+    background-color: #FFFFFF;
+}

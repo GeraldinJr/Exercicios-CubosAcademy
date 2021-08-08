@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
+$cyan: #5FB4A2;
+$dark-blue: #203A4C;
+$grey-dark-blue: #33323D;
+$very-ligth-grey: #FAFAFA;
+$ligth-grey: #EAEAEB;
+
+@mixin reset {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@mixin font-h {
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+@mixin font-body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+@mixin body1 {
+    @include font-body();
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color:$grey-dark-blue;
+}
+
+@mixin body2 {
+    @include font-body();
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    color:$grey-dark-blue;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    @include font-h();
+    color:$grey-dark-blue;
+    font-style: normal;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    padding: 64px 164.5px 0px 164.5px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.285714px;;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    a {
+        margin-left: 43px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: $grey-dark-blue;
+    }
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    padding: 24px 165px;
+    background-color: $grey-dark-blue;
+    a {
+        margin-left: 43px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFF;
+    }
+
+    .redes {
+        margin-left: auto;
+        display: flex;
+        gap: 15px;
+    }
+
+}
+ .paragrafo1 {
+     @include body1();
+ }
+
+ .paragrafo2 {
+    @include body2();
+}
+
+.btn-primario {
+    width: 200px;
+    display: flex;
+    background-color: $dark-blue;
+    div {
+        padding: 18px 16px;
+        background-color: rgba($color: #000000, $alpha: 0.1);
+    }
+    svg {
+        stroke: #5FB4A2;
+    }
+    section {
+        margin: auto;
+        color: #FFF;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        @include font-h();
+    }
+    &:hover {
+        background-color: $cyan;
+        svg {stroke:white;}
+      }
+      &:active {
+        position: relative;
+        top: 1px;
+      }
+      transition: 1s;
+}
+
+
+label {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    @include font-body();
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.contato {
+    font-weight: 100;
+    border: 1px solid $grey-dark-blue;
+    color: $grey-dark-blue;
+    &:hover{
+        background-color: $grey-dark-blue;
+        color: $very-ligth-grey;
+    }
+    transition: 0.6s;
+  }
+
+  .enviar {
+    font-weight: normal;
+    color: $very-ligth-grey;
+    background-color: $dark-blue;
+    &:hover {
+        background-color: $cyan;
+    }
+    transition: 0.6s;
+  }
+
+.btn-secundario {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    width: 162px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+}
+
+.txt-area {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    input {
+        all: unset;
+        box-sizing: border-box;
+        background-color: $ligth-grey;
+        &:focus {
+            border: 2px solid #000000;
+        }
+    }
+}
+
+.mensagem {
+    width: 500px;
+    input {
+        height: 96px;
+    }
+}
+
+.nome {
+    width: 500px;
+    input {
+        height: 48px;
+    }
+}
+
+.pre-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 150px;
+}

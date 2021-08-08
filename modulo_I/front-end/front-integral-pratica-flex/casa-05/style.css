@@ -1,0 +1,129 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif; */
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff0f4;
+    gap: 50px;
+}
+a {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+h3{
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+.card1 .top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.card1 .top a {
+    background: #202142;
+    color: #FFFFFF;
+}
+
+.foto{
+    border: 0.5px solid #EFEFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 22.5px -7.5px rgba(2, 5, 132, 0.2);
+    padding: 8px;
+    border-radius: 50%;
+}
+.foto img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.card1 .info {
+    margin-left: 29px;
+    margin-right: 95px;
+}
+.card1 {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 45px -15px rgba(2, 5, 132, 0.25);
+    border-radius: 10px;
+    width: 583px;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.card1 .designers {
+    display: flex;
+    gap: 15px;
+}
+
+.card1 .designers img{
+    width: 162.2px;
+    border-radius: 10px;
+}
+
+.card2 {
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 30px;
+    width: 1170px;
+    box-shadow: 0px 16px 45px -15px rgba(2, 5, 132, 0.25);
+    border-radius: 10px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.card2 .top {
+    display: flex;
+    align-items: center;
+    width: 279px;
+    flex-wrap: wrap;
+}
+
+.card2 .top a {
+    background: #FFFFFF;
+    color: #202142;
+    margin-left: 138px;
+    border: 1px solid #A4A4CB;
+}
+
+.card2 .info {
+    margin-left: 29px;
+}
+
+.card2 .designers {
+    display: flex;
+    gap: 15px;
+}
+
+.card2 .designers img{
+    width: 216px;
+    border-radius: 10px;
+}

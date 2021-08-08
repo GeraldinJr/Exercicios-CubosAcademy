@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9aa6cf;
+}
+
+h1 {
+    text-align: center;
+    width: 256px;
+    align-self: center;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+a {
+    margin-top: 27px;
+    padding: 45px 250px;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    background: #5F82FF;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+a:hover {
+    
+    background: #093DF3;
+    box-shadow: 20px 20px 50px rgba(9, 61, 243, 0.3);
+}
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    width: 533px;
+    align-self: center;
+}
+
+label {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+}
+input {
+    all:unset;
+    background: #FFFFFF;
+    border: 1px solid #CED5EC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 26px;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+input:focus {
+    border: 1px solid #5f82ff;
+}
+.container {
+    max-width: 693px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    box-shadow: 0px 34px 44px rgba(160, 181, 255, 0.28);
+    border-radius: 10px;
+    padding: 70px 50px 50px 50px;
+
+    margin: 100px;
+}
+
+.card-number {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-infos {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 15px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}

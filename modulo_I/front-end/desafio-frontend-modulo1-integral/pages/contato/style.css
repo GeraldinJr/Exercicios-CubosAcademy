@@ -1,0 +1,46 @@
+
+.pai {
+    margin-top: 94px;
+    padding: 48px 0px;
+    display: flex;
+    width: 100%;
+    border-top: solid 1px #EAEAEB;
+}
+
+.esquerda {
+    width: 50%;
+}
+
+.direita {
+    width: 60%
+}
+
+.direita div {
+    margin-top: 54px;
+}
+
+.txt-area {
+    width: 100%;
+}
+
+.mae {
+    padding: 48px 0px;
+    border-top: solid 1px #EAEAEB;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 109px;
+}
+.rigth {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+img {
+    margin-right: 15px;
+}
+
+#contato {
+    color: #5FB4A2;
+}

@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mae {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 63.89%;
+    
+}
+
+ h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+ }
+
+ p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;    
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-bottom: 83px;
+ }
+
+ a{
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-decoration: none;
+    padding: 12px 32px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+ }
+
+ .card {
+   width: 33.3%;
+   padding: 47px;
+   border-radius: 8px;
+ }
+
+ .sedan {
+    background-color: #E28625;
+ }
+
+ .suv {
+   background: #006971;
+ }
+
+ .luxury {
+   background: #004140;
+ }
+
+ .sedan a {
+    color: #E28625;
+ }
+
+ .suv a {
+    color: #006971;
+ }
+
+ .luxury a {
+    color: #004140;
+ }
